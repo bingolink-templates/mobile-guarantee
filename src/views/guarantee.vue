@@ -1,7 +1,7 @@
 <template>
   <div ref="wrap">
       <div class='guarantee' v-bind:style="{'height': $isIPad ? '142wx': '284px'}" @click='openArtificial'>
-        <bui-image src="/image/guarantee.png" radius='8px' width="702px" :height="height" @click='openArtificial'></bui-image>
+        <bui-image src="/image/guarantee.png" width="750px" :height="height" @click='openArtificial'></bui-image>
       </div>
   </div>
 </template>
@@ -53,8 +53,5 @@
 <style>
 .guarantee {
     background: #fff;
-    padding: 18wx 0;
-    flex-direction: row;
-    justify-content: center;
 }
 </style>
