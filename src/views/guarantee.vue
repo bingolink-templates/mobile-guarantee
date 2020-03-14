@@ -1,6 +1,6 @@
 <template>
   <div ref="wrap">
-      <div class='guarantee' v-bind:style="{'height': $isIPad ? '142wx': '284px'}" @click='openArtificial'>
+      <div class='guarantee' @click='openArtificial'>
         <bui-image src="/image/guarantee.png" width="750px" :height="height" @click='openArtificial'></bui-image>
       </div>
   </div>
